@@ -208,7 +208,7 @@ Identico: = = =
 <br/>
 <br/>
 <br/>
-Operador unario:
+Operador Ternario:
 <br/> 
 <br/>
 Expresão ? Verdadeiro : Falso
