@@ -5,11 +5,14 @@
  <meta charset="utf-8">
  </head>
  <body>
+   
+   <br/>
+   <br/>
  
  <div>
 <?php
 $valor = $_GET['v'];
-echo "O valor enviado foi: $valor";
+echo "<h2>O valor enviado foi: $valor</h2>";
 ?>
 
 <br/>
