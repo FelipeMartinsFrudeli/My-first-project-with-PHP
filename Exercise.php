@@ -14,6 +14,19 @@
      color: #000;
      font-weight: bold;
  } 
+     
+     <h2>Coloque no URL: </h2>
+
+<br/>
+
+
+http://localhost/aula_php/tipo.php?a=40&b=67&op=m
+
+
+<br/>
+<br/>
+<br/>
+
 
  </style>
 
