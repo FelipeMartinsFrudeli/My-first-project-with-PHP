@@ -6,13 +6,16 @@
  </head>
  <body>
    
-   <br/>
-   <br/>
- 
+<br/>
+<br/>
+
  <div>
 <?php
-$valor = $_GET['v'];
-echo "<h2>O valor enviado foi: $valor</h2>";
+$nome = ($_GET["nome"])? $_GET["nome"]:"[Não Informado]";
+$ano = ($_GET["ano"])? $_GET["ano"]:0;
+$sexo = isset($_GET["sexo"])? $_GET["sexo"]:"[Sem Sexo]";
+$idade = date("Y") - $ano;
+echo "<h3>$nome tem $idade anos, e é do sexo $sexo";
 ?>
 
 <br/>
