@@ -10,8 +10,16 @@
     <h2>Formularios interativos em PHP:</h2>
 
     <form method="GET" action="form.php">
-<br/> <br/> Digite um valor: <br/> <br/> <input type="text" name="v"/>
-<input type="submit" value="calcular"/>
+Nome: <input type="text" name="nome"/>
+Data de nascimento: <input type="number" name="ano"/>
+<fieldset><legend>Sexo</legend>
+<input type="radio" name="sexo" id="masc" value="masculino" >
+<label for="masc">Masculino</label></br>
+<input type="radio" name="sexo" id="fem" value="feminino">
+<label for="fem">Feminino</label>
+</fieldset></br>
+<input type="submit" value='Enviar'/>
+
 </form>
 
 </body>
